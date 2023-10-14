@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    background-color: rgb(211, 166, 255);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.field{
+    overflow: hidden;
+    height: 90%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.field-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+    height: 70px;
+    width: 100%;
+    padding: 2px 25%;
+    background-color: rgb(106, 34, 178);
+}
+.timer,.score,.lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 21px;
+    font-weight: 600;
+    color: white;
+}
+.up-box{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+    font-size: 22px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+}
+.field-mid{
+    height: calc(100% - 210px);
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.players{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 90%;
+    height: 100%;
+    gap: 200px;
+    flex-direction: row-reverse;
+
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color:  rgb(106, 34, 178);
+    border-radius: 10px;
+}
+.computer,.user, text{
+    color: white;
+    font-size: 120px;
+}
+.field-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 140px;
+    width: 100%;
+    background-color: rgb(106, 34, 178);
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.number:hover{
+    background-color: rgb(241, 241, 241);
+}
+.check{
+    background-color: rgb(106, 34, 178);
+    padding: 10px 18px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    border-radius: 5px;
+}
+.check:hover{
+    background-color: rgb(80, 32, 128);
+
+}
